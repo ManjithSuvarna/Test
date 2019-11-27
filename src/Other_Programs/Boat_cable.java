@@ -29,7 +29,7 @@ public class Boat_cable {
 
 		float price = Float.parseFloat(price_String);
 
-		if (price > 200) {
+		if (price < 200) {
 			driver.get("https://www.facebook.com/");
 
 			Thread.sleep(5000);
